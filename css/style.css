@@ -103,14 +103,53 @@ img {
    opacity: 1;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Hero */
 .hero {
-   background: url('../img/home/home.jpg') no-repeat center center/cover;
+   background: url('../img/home/home5.jpg') no-repeat center center/cover;
    height: 100vh;
    color: #fff;
    position: relative;
    padding-top: 0.938rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hero .content {
    display: flex;
@@ -269,7 +308,7 @@ img {
 
 /* About-info */
 .hero.about-post {
-   background: url(../img/home/about-post.jpg) no-repeat center center/cover;
+   background: url(../img/home/about-post2.jpg) no-repeat center center/cover;
    height: 50vh;
 }
 
