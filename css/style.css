@@ -105,26 +105,6 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Hero */
 .hero {
    background: url('../img/home/home5.jpg') no-repeat center center/cover;
@@ -134,21 +114,25 @@ img {
    padding-top: 0.938rem;
 }
 
+.hero2 {
+   /* background: url('../img/home/home5.jpg') no-repeat center center/cover; */
+   /* height: 100vh; */
+   color: #fff;
+   position: relative;
+   padding-top: 0.938rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hero2  {
+   display: flex;
+   
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 100%;
+   padding: 0 1.25rem;
+   line-height: 1.8;
+   margin-top: 1.25rem;
+}
 
 
 .hero .content {
@@ -285,12 +269,14 @@ img {
    width: 100%;
    padding: 0.625rem;
    border: 0.063rem solid #ddd;
+   border-radius: 4%;
 }
 
 .contact input:focus {
    outline: none;
    border: 0.063rem solid #59d8a7;
    font-size: 0.825rem;
+   /* border-radius: 10%; */
 }
 
 .contact .form-group {

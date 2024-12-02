@@ -234,3 +234,49 @@ body {
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
 }
+
+
+/* Center the lightbox overlay */
+.lightboxOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center the lightbox image and caption */
+.lightbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* Ensure the image scales properly */
+.lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Style the caption */
+.lightbox .lightbox-caption {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Change the food name link color to white */
+.tranding-slide-content-bottom a .food-name {
+  color: white;
+  text-decoration: none;
+}
+
+/* Optional: Change the color on hover for better user interaction */
+.tranding-slide-content-bottom a:hover .food-name {
+  color: #f1f1f1; 
+}
+
